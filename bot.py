@@ -152,4 +152,4 @@ Escribí solo el número. Ejemplo: 1123456789""")
     return str(resp)
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    app.run(host="0.0.0.0", port=int(os.envieron,get("PORT",5000)), debug=False)
