@@ -1,0 +1,321 @@
+/* ===== RESET Y GENERALES ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ===== SECCIÓN 1 - HERO ===== */
+.hero {
+  background: #fff;
+  text-align: center;
+  max-height: 70vh;
+  padding: 20px 20px 40px;
+  position: relative;
+}
+
+.borde-naranja {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 8px;
+  background: #D98E5A;
+}
+
+.contenedor-hero {
+  padding-top: 30px;
+}
+
+.logo-hero {
+  width: 180px;
+  margin: 0 auto 15px;
+}
+
+.titulo-hero {
+  font-family: 'Dancing Script', cursive;
+  font-size: 42px;
+  color: #A84232;
+  font-weight: 400;
+}
+
+.titulo-hero span {
+  font-weight: 700;
+  display: block;
+  font-size: 56px;
+}
+
+/* ===== SECCIÓN 2 - SOBRE NOSOTROS ===== */
+.sobre-nosotros {
+  background: #fff;
+}
+
+.barra-naranja {
+  background: #D98E5A;
+  color: white;
+  text-align: center;
+  padding: 12px;
+}
+
+.barra-naranja h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.contenedor-dos-col {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.col-izq, .col-der {
+  flex: 1;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-celeste {
+  background: #7EC8E3;
+}
+
+.col-naranja {
+  background: #D98E5A;
+  color: white;
+  text-align: center;
+}
+
+.col-naranja p {
+  font-size: 17px;
+  margin-bottom: 20px;
+  max-width: 400px;
+}
+
+.btn-violeta {
+  background: #8A7FD9;
+  color: white;
+  border: none;
+  padding: 14px 32px;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-violeta:hover {
+  background: #7A6FC7;
+}
+
+/* ===== SECCIÓN 3 - PROBLEMA/SOLUCIÓN ===== */
+.problema-solucion {
+  background: #fff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.titulo-rojo {
+  font-family: 'Dancing Script', cursive;
+  color: #A84232;
+  font-size: 36px;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.texto-centro {
+  font-size: 16px;
+  max-width: 700px;
+  margin: 0 auto 30px;
+}
+
+.problema-solucion .contenedor-dos-col {
+  margin-top: 40px;
+  align-items: stretch;
+}
+
+.lista-menu {
+  list-style: none;
+  text-align: left;
+  margin-top: 15px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  color: #A84232;
+}
+
+.lista-menu li {
+  margin-bottom: 5px;
+}
+
+.texto-grande {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 15px 0;
+}
+
+/* ===== SECCIÓN 4 - GALERÍA ===== */
+.galeria-recetas {
+  background: #D98E5A;
+  padding: 50px 20px;
+}
+
+.contenedor-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card-receta {
+  background: #E8C4A2;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.texto-card {
+  font-size: 14px;
+  font-style: italic;
+  margin-bottom: 15px;
+  color: #5a3a2a;
+  min-height: 60px;
+}
+
+.card-receta img {
+  border-radius: 8px;
+  margin: 0 auto 15px;
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-receta h3 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 24px;
+  color: #A84232;
+  margin-bottom: 10px;
+}
+
+.descripcion {
+  font-size: 14px;
+  color: #5a3a2a;
+}
+
+/* ===== SECCIÓN 5 - FORMULARIO ===== */
+.seccion-formulario {
+  background: #fff;
+  padding: 40px 20px 60px;
+}
+
+.barra-roja {
+  background: #A84232;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+.barra-roja h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 32px;
+  margin: 0;
+}
+
+.contenedor-form {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contenedor-form h3 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 28px;
+  color: #A84232;
+  margin-bottom: 25px;
+}
+
+#formContacto input,
+#formContacto textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 2px solid #8A7FD9;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+#formContacto input:focus,
+#formContacto textarea:focus {
+  outline: none;
+  border-color: #7EC8E3;
+}
+
+#formContacto .btn-violeta {
+  width: 100%;
+}
+
+#mensajeExito {
+  margin-top: 20px;
+  color: #8A7FD9;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.oculto {
+  display: none;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  background: #D98E5A;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+/* ===== RESPONSIVE TABLET ===== */
+@media (max-width: 768px) {
+  .titulo-hero { font-size: 36px; }
+  .titulo-hero span { font-size: 48px; }
+  .contenedor-dos-col { flex-direction: column; }
+  .col-izq, .col-der { padding: 30px 20px; }
+  .titulo-rojo { font-size: 30px; }
+  .contenedor-cards { grid-template-columns: repeat(2, 1fr); gap: 20px; }
+  .barra-roja h2 { font-size: 26px; }
+  .contenedor-form h3 { font-size: 24px; }
+}
+
+/* ===== RESPONSIVE MOBILE ===== */
+@media (max-width: 480px) {
+  .hero { max-height: 60vh; }
+  .logo-hero { width: 140px; }
+  .titulo-hero { font-size: 30px; }
+  .titulo-hero span { font-size: 40px; }
+  .barra-naranja h2 { font-size: 26px; }
+  .titulo-rojo { font-size: 26px; }
+  .contenedor-cards { grid-template-columns: 1fr; }
+  .card-receta { padding: 15px; }
+  .barra-roja h2 { font-size: 22px; }
+  .contenedor-form h3 { font-size: 22px; }
+  .btn-violeta { padding: 12px 24px; font-size: 15px; }
+}

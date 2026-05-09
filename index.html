@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Las Recetas de la Nona</title>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- SECCIÓN 1 - HERO -->
+  <section class="hero">
+    <div class="borde-naranja"></div>
+    <div class="contenedor-hero">
+      <img src="img/logo-nona.png" alt="Las Recetas de la Nona" class="logo-hero">
+      <h1 class="titulo-hero">Las Recetas de la <span>NONA</span></h1>
+    </div>
+  </section>
+
+  <!-- SECCIÓN 2 - SOBRE NOSOTROS -->
+  <section class="sobre-nosotros">
+    <div class="barra-naranja">
+      <h2>Recetas de la nona</h2>
+    </div>
+    <div class="contenedor-dos-col">
+      <div class="col-izq col-celeste">
+        <img src="img/nona-ilustracion.png" alt="La Nona cocinando">
+      </div>
+      <div class="col-der col-naranja">
+        <p>Es un espacio que reúne sabores, recuerdos y emociones. Es una invitación a cocinar y comer con el corazón abierto. Recordando que la comida no solo alimenta el cuerpo, sino también el amor y el vínculo que nos unen.</p>
+        <a href="https://wa.me/14155238886" class="btn-violeta btn-wsp-directo" target="_blank" rel="noopener noreferrer">
+          Hablar por WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN 3 - PROBLEMA/SOLUCIÓN -->
+  <section class="problema-solucion">
+    <h2 class="titulo-rojo">¡ENCONTRAR UNA BUENA RECETA A VECES ES UN CAOS!</h2>
+    <p class="texto-centro">Ver videos, seguir tutoriales, leer libros, leer recetas sueltas y de paso preguntarle a internet. Pero...</p>
+    <h2 class="titulo-rojo">¿Qué pasaría si en este blog encontras todo lo que buscas?</h2>
+    
+    <div class="contenedor-dos-col">
+      <div class="col-izq">
+        <ul class="lista-menu">
+          <li>Ñoquis</li>
+          <li>Pastas</li>
+          <li>Empanadas</li>
+          <li>Guisos</li>
+          <li>Tarta</li>
+          <li>Puré</li>
+          <li>Papas</li>
+          <li>Pizza</li>
+          <li>Ensaladas</li>
+        </ul>
+      </div>
+      <div class="col-der col-naranja">
+        <p>Contamos con un amplio menú</p>
+        <p class="texto-grande">Y Con muchas historias.</p>
+        <p>¿Te gustaría ser parte de nuestra familia?</p>
+        <a href="https://wa.me/14155238886" class="btn-violeta btn-wsp-directo" target="_blank" rel="noopener noreferrer">
+          Quiero info por WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN 4 - GALERÍA DE RECETAS -->
+  <section class="galeria-recetas">
+    <div class="contenedor-cards">
+      
+      <div class="card-receta">
+        <p class="texto-card">Los Domingos en casa de la nona se comían los Moquis (dijo el más chiquito)</p>
+        <img src="img/noquis.png" alt="Ñoquis con salsa">
+        <h3>Ñoquis con Salsa y Carne estilo Caracú</h3>
+        <p class="descripcion">Tiernos ñoquis acompañados de carne jugosa y huesos con caracú en una rica salsa.</p>
+      </div>
+
+      <div class="card-receta">
+        <p class="texto-card">Nunca faltaban las increíbles empanadas acompañas de unas buenas pizzas caseras..</p>
+        <img src="img/empanadas.png" alt="Empanadas de carne">
+        <h3>Empanadas de Carne</h3>
+        <p class="descripcion">Crujientes y bien rellenas, con carne jugosa, huevo, aceitunas y mucho sabor casero.</p>
+      </div>
+
+      <div class="card-receta">
+        <p class="texto-card">A veces era turno de ellos. Los mejores fideos caseros del planeta.</p>
+        <img src="img/pastas.png" alt="Pastas con bolognesa">
+        <h3>Pastas con Salsa Bolognesa</h3>
+        <p class="descripcion">Con fideos caseros hechos a mano y una deliciosa salsa de carne.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN 5 - FORMULARIO -->
+  <section class="seccion-formulario">
+    <div class="barra-roja">
+      <h2>¡Uy, cuanto más tengo para contarte!</h2>
+    </div>
+    
+    <div class="contenedor-form">
+      
+      <h3>¿Te animas a cocinar con nosotros? Dejame tus datos</h3>
+      
+      <form id="formContacto" action="https://formspree.io/f/xkokabze" method="POST">
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre y apellido" required>
+        <input type="tel" name="telefono" id="telefono" placeholder="Teléfono / WhatsApp" required>
+        <input type="email" name="email" id="email" placeholder="Tu Gmail" required>
+        <textarea name="mensaje" id="mensaje" placeholder="Contame qué receta te gustaría ver..." rows="4" required></textarea>
+        <button type="submit" class="btn-violeta">Enviar datos por Mail 
+          y WhatsApp</button>
+      </form>
+      
+      <p id="mensajeExito" class="oculto">¡Gracias! Ya te abrimos WhatsApp y nos llegó tu mail 💜</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2026 Las Recetas de la Nona - Hecho con amor y sabor casero</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
